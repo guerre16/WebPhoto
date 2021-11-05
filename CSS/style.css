@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+
+*,
+*::after,
+*::before{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+/* Configurando para móvil */
+
+.header{
+    width: 100%;
+    height: 15vh;
+}
+
+.header__block{
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
+
+.header__img{
+    width: 100%;
+    height: 90%;
+    background-image: url("/imagenes/large_negro2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header__boton{
+    display: none;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    line-height: 60px;
+}
+
+.header__boton a{
+    text-decoration: none;
+    padding: 5px 15px;
+    margin: auto;
+    border-radius: 25px;
+    background-color: #141414;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.header__boton a:hover{
+    opacity: 0.8;
+}
+
+/* Fin de css para header */
+
+/* Contenedor padre */
+.container_{
+    width: 100%;
+}
+/* fin contenedor padre */
+
+/* Seccion 1 Textos e imágen */
+
+.section_one{
+    height: 400px;
+    padding: 22px;
+    background-image: url("/imagenes/Backback.png");
+    background-size: cover;
+}
+
+.title-container{
+    padding: 25px;
+    background-color: #ffffffc4;
+    border-radius: 20px;
+}
+
+.title-section{
+    text-align: center;
+}
+
+.title-principal{
+    font-size: 35px;
+    font-weight: 700;
+    color: #141414;
+    margin: 0px;
+}
+
+.description-section{
+    margin-top: 35px;
+}
+
+.description-p{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #2E4765;
+}
+
+.img-container{
+    /*inicialmente quedara sin aparecer ya que en telefono
+    no es necesario*/
+    display: none;
+}
+
+.btn-section{
+    margin-top: 40px;
+    text-align: center;
+}
+
+#btn-two{
+    text-decoration: none;
+    padding: 10px 13px;
+    border-radius: 25px;
+    background-color: #141414;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+
+    transition: all 0.5s;
+}
+
+#btn-two:hover{
+    opacity: 0.85;
+}
+
+/* Final de la seccion uno */
+
+
+
+
+
+
+
+/* Configuracion para PC */
+
+@media only screen and (min-width: 1024px) {
+
+/* Header */
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        background-color: #F5F6FA;
+    }
+
+    .header__block{
+        width: 150px;
+        margin: 0% 0% 0% 80px;
+    }
+
+    .header__boton{
+        width: 250px;
+        display: inline;
+        margin: 0%;
+    }
+
+    .header__boton a{
+        width: 235px;
+        height: 250px;
+        padding: 12px 35px !important;
+        font-size: 13.5px;
+        font-weight: 600;
+    }
+
+    /*Contenedor padre */
+
+    .container_{
+        margin-top: 0%;
+    }
+
+    /* Seccion One */
+
+    .section_one{
+        background: #F5F6FA;
+        height: 120vh;
+        margin-top: 0%;
+        padding-left: 60px;
+    }
+
+    .title-container{
+        background: none;
+        height: 100%;
+    }
+
+    .title-section{
+        height: 45%;
+        text-align: left;
+    }
+
+    .title-principal{
+        font-size: 95px;
+        line-height: 95px;
+        letter-spacing: 3px;
+        font-weight: 600;
+    }
+
+    .description-section{
+        height: 11%;
+        width: 90%;
+        margin-top: 10px;
+    }
+    
+    .description-p{
+        text-align: left !important;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .btn-section{
+        height: 10%;
+        margin: 0%;
+        text-align: left;
+    }
+
+    #btn-two{
+        background-color: #ffff00;
+        color: #141414;
+        font-size: 14px;
+    }
+
+    #btn-two:hover{
+        background-color: #141414;
+        color: #ffffff;
+        opacity: 1.0;
+    }
+
+    .img-container{
+        margin-top: -30px;
+        height: 100%;
+        display: block;
+    }
+
+    .img-background{
+        width: 100%;
+        height: 100%;
+        background-image: url("/imagenes/img.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 75px;
+        box-shadow: 13px 19px 38px 5px rgba(143, 143, 143, 0.631);
+    }
+/* Fin de seccion one */
+
+
+
+}
