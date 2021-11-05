@@ -34,7 +34,7 @@ body{
 .header__img{
     width: 100%;
     height: 90%;
-    background-image: url("/imagenes/large_negro2.png");
+    background-image: url("/images/large_negro2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -76,7 +76,7 @@ body{
 .section_one{
     height: 400px;
     padding: 22px;
-    background-image: url("/imagenes/Backback.png");
+    background-image: url("/images/principal.jpg");
     background-size: cover;
 }
 
