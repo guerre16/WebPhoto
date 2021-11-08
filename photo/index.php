@@ -10,8 +10,8 @@
     <!-- CSS stylesheet -->
     <link rel="stylesheet" href="./CSS/style.css">
     
-    <link rel="stylesheet" href="./owlcarousel/assets/owl.carousel.css">
-    <link rel="stylesheet" href="./owlcarousel/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.theme.default.min.css" />
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="./images/small_negro.png">
@@ -274,8 +274,8 @@
 
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="./owlcarousel/owl.carousel.min.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
     <script src="./JS/carousel.js"></script>
 </body>
 </html>
