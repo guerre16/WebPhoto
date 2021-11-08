@@ -12,6 +12,9 @@
     
     <link rel="stylesheet" href="./owlcarousel/assets/owl.carousel.css">
     <link rel="stylesheet" href="./owlcarousel/assets/owl.theme.default.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/small_negro.png">
     
     <!--Title-->
     <title>Photo - Arteria Estudio</title>
