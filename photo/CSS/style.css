@@ -142,7 +142,6 @@ body{
 .section_two{
     width: 100%;
     padding: 50px 20px;
-    font-weight: ;
     margin: auto;
 }
 
@@ -196,6 +195,7 @@ body{
     text-decoration: none;
     text-align: left;
     padding: 20px 20px 5px 15px;
+    transition: all 0.3s;
 }
 
 .card-title, .card-description{
@@ -258,13 +258,25 @@ body{
     background-image: url("../images/espacios.jpg");
 }
 
+.card-item:hover{
+    opacity: 0.75;
+    background-color: #ff0000;
+}
+
 /* Fin seccion two */
 
 
 /* Seccion three */
 
 .section_three{
-    padding: 90px 20px 30px 20px;
+    margin: auto 35px;
+    padding: 90px 10px 30px 10px;
+    background-color: #E4E4E4;
+    border-radius: 20px;
+}
+
+.info-three{
+    margin-bottom: 35px;
 }
 
 .title-section-three{
@@ -273,9 +285,12 @@ body{
 }
 
 .description-section-three{
-    font-size: 17px;
+    width: 87%;
+    font-size: 15px;
     color: #6F6F6F;
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .block-container{
@@ -284,30 +299,31 @@ body{
 
 .block-item{
     margin: 5px auto;
-    width: 225px;
-    height: 225px;
+    width: 235px;
+    height: 105px;
     border-radius: 20px;
-    padding: 60px 15px 10px 15px;
+    padding: 20px 10px 0px 15px;
     background-color: #2C2738;
     color: #ffffff;
     text-align: left;
 }
 
 .block-title{
-    font-size: 35px;
-    width: 75%;
+    font-size: 18px;
+    width: 100%;
     font-weight: 800;
 }
 
 .block-description{
-    font-size: 13.5px;
+    font-size: 12px;
     font-weight: 500;
 }
 
 .block-plus{
-    font-size: 80px;
+    font-size: 45px;
     font-weight: 600;
     color: #2C2738;
+    margin: -10px 0px;
 }
 
 /* Fin seccion three */
@@ -316,7 +332,9 @@ body{
 /* Seccion Four */
 
 .section_four{
-    padding: 90px 20px 30px 20px;
+    margin-top: 80px;
+    padding: 60px 20px 30px 20px;
+    background-color: #F5F6FA;
 }
 
 .title-section-four{
@@ -329,14 +347,6 @@ body{
     font-size: 17px;
     color: #404040;
 }
-
-/* Carousel */
-
-
-
-/* fin carousel */
-
-
 
 
 /* Configuracion para PC */
@@ -452,6 +462,102 @@ body{
     }
 /* Fin de seccion one */
 
+/* Seccion Two */
 
+.info-section{
+    text-align: left;
+}
 
+.title-section-two, .title-sub{
+    font-size: 45px;
+}
+
+.subtitle-section{
+    margin-top: 10px;
+}
+
+.cards-container{
+    grid-template-columns: repeat(3, 25%);
+}
+
+/* fin section two */
+
+/* section three */
+
+    .section_three{
+        margin: auto 90px;
+        padding-bottom: 60px;
+    }
+    .title-section-three, .description-section-three{
+        text-align: center;
+    }
+
+    .title-section-three{
+        font-size: 50px;
+    }
+
+    .description-section-three{
+        width: 70%;
+        margin: 25px auto;
+        font-size: 25px;
+    }
+
+    .block-container{
+        display: grid;
+        grid-template-columns: 230px 75px 230px 75px 230px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .block-item{
+        padding-top: 45px;
+        padding-left: 20px;
+        height: 200px;
+    }
+
+    .block-title{
+        font-size: 35px;
+        width: 75%;
+    }
+/* fin seccion tres */
+
+/* seccion 4 */
+
+    .section_four{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        padding-left: 75px;
+        padding-right: 75px;
+        padding-top: 40px;
+    }
+
+    .info-four{
+        margin-top: 65px;
+    }
+
+    .title-section-four{
+        width: 60%;
+        line-height: 35px;
+        font-size: 60px;
+    }
+
+    .sub-four{
+        font-size: 60px;
+    }
+
+    .description-section-four{
+        text-align: justify;
+        font-size: 16px;
+        font-weight: 600;
+        width: 65%;
+    }
+
+    .carousel-flex{
+        display: flex;
+    }
+
+    .item{
+        width: 560px;
+        height: 560px;
+    }
 }

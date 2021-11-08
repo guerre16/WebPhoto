@@ -163,7 +163,7 @@
                     <div class="card-sup"></div>
                     <div class="card-inf">
                         <h2 class="card-title">
-                            Áreas
+                            Aéreas
                         </h2>
                         <p class="card-description">
                             Fotos de otro nivel capturadas con drone.
@@ -198,7 +198,7 @@
 
         <!-- Sección 3 -->
         <div class="section_three">
-            <div class="info-section">
+            <div class="info-section info-three">
                 <div class="title-section-three">
                     <h2 class="title-sub">Sin pérdidas</h2> de tiempo
                 </div>
@@ -242,28 +242,28 @@
         <!-- Seccion 4 -->
 
         <div class="section_four">
-            <div class="info-section">
+            <div class="info-section info-four">
                 <div class="title-section-four">
-                    Resultados <h2 class="title-sub">garantizados</h2>
+                    Resultados <h2 class="title-sub sub-four">garantizados</h2>
                 </div>
                 <h3 class="description-section-four">
-                    Nos encargamos de organizar todo para tu sesión, tendrás tu 
-                    propio equipo que te acompañará en todo el proceso.
+                    Más de 40 marcas ha confiado en nosotros 
+                    para capturar las imágenes de sus negocios
                 </h3>
             </div>
 
-            <div class="owl-carousel owl-theme">
+            <div class="owl-carousel owl-theme carousel-flex">
                 <div class="item">
-                    <img src="./images/carousel-1.png" alt="">
+                    <img src="./images/carousel-1.png" alt="carousel-1">
                 </div>
                 <div class="item">
-                    <img src="./images/carousel-2.png" alt="">
+                    <img src="./images/carousel-2.png" alt="carousel-2">
                 </div>
                 <div class="item">
-                    <img src="./images/carousel-3.png" alt="">
+                    <img src="./images/carousel-3.png" alt="carousel-3">
                 </div>
                 <div class="item">
-                    <img src="./images/carousel-1.png" alt="">
+                    <img src="./images/carousel-4.png" alt="carousel-4">
                 </div>
             </div>
 
@@ -273,6 +273,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./owlcarousel/owl.carousel.min.js"></script>
-    <script src="./JS/app.js"></script>
+    <script src="./JS/carousel.js"></script>
 </body>
 </html>
